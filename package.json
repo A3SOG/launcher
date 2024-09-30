@@ -1,0 +1,55 @@
+{
+  "name": "sog-launcher",
+  "version": "1.0.0",
+  "main": "dist-electron/main/index.js",
+  "description": "Arma 3 SOG Launcher",
+  "author": "Jacob Schmidt",
+  "license": "MIT",
+  "private": true,
+  "keywords": [
+    "electron",
+    "rollup",
+    "vite",
+    "vue3",
+    "vue"
+  ],
+  "debug": {
+    "env": {
+      "VITE_DEV_SERVER_URL": "http://127.0.0.1:3344/"
+    }
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "rimraf release && vue-tsc --noEmit && vite build && electron-builder",
+    "preview": "vite preview",
+    "publish": "vue-tsc --noEmit && vite build && electron-builder -p always"
+  },
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.9",
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "@tailwindcss/typography": "^0.5.15",
+    "@types/gamedig": "^5.0.3",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "autoprefixer": "^10.4.20",
+    "electron": "^32.1.2",
+    "electron-builder": "^25.0.5",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.4.2",
+    "vite": "^5.1.5",
+    "vite-plugin-electron": "^0.28.4",
+    "vite-plugin-electron-renderer": "^0.14.5",
+    "vue": "^3.4.21",
+    "vue-tsc": "^2.0.6"
+  },
+  "dependencies": {
+    "electron-log": "^5.2.0",
+    "electron-updater": "^6.3.4",
+    "extract-zip": "^2.0.1",
+    "gamedig": "^5.1.3",
+    "pinia": "^2.2.2",
+    "rimraf": "^6.0.1"
+  }
+}
