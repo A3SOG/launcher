@@ -2,7 +2,6 @@
 Welcome to SOG's Arma 3 Game Launcher
 
 [![GitHub Release](https://img.shields.io/github/v/release/A3SOG/launcher?label=latest%C2%A0release)](https://github.com/A3SOG/launcher/releases/latest)
-[![GitHub Discord](https://img.shields.io/badge/chat-discord-blue?logo=discord)](https://discord.gg/tcNBB2Sb)
 [![GitHub Issues](https://img.shields.io/github/issues/A3SOG/launcher)](https://github.com/A3SOG/launcher/issues)
 [![GitHub Build](https://github.com/A3SOG/launcher/actions/workflows/build.yml/badge.svg)](https://github.com/A3SOG/launcher/actions/workflows/build.yml)
 
