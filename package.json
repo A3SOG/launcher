@@ -1,6 +1,6 @@
 {
   "name": "sog-launcher",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist-electron/main/index.js",
   "description": "Arma 3 SOG Launcher",
   "author": "Jacob Schmidt",
