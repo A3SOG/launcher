@@ -33,7 +33,7 @@
     "@types/gamedig": "^5.0.3",
     "@vitejs/plugin-vue": "^5.0.4",
     "autoprefixer": "^10.4.20",
-    "electron": "^32.1.2",
+    "electron": "^33.2.1",
     "electron-builder": "^25.0.5",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.13",
